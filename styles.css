@@ -70,15 +70,15 @@ footer {
   height:300px;
   padding: 300p;
   position: absolute;
-  top: 510%;
+  top: 3300px;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: rgba(0,0,0,0.4);
+  background: #FFFBE5;
   text-align: center;
 }
 .box h1
 {
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -111,7 +111,7 @@ footer {
   border:3px solid #ffc400ec;
   padding:14px 35px;
   outline:none;
-  color:white;
+  color:rgb(211, 21, 21);
   border-radius:24px;
   transition:0.25px;
   cursor: pointer;
@@ -128,11 +128,10 @@ footer {
   background-size: cover;
 }
 .div1 {
-  background: url(s5.jpeg);
+  background: url(g1.jpg);
   background-size: 1500px 800px;
   background-repeat: no-repeat;
 }
-
 .pic1{
   height: 300px;
   width: 300px;
@@ -234,3 +233,17 @@ footer {
       height: 30px;
     }
    
+    .title{
+      width: 100%;
+      border: 3px solid #ffffff;
+      box-shadow: 9px 6px 4px #daa6f0;
+      padding: 7px 11px;
+      background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+      font-family: 'Times New Roman';
+      font-size: 30px;
+      text-align:center;
+  }
+  .table-text{
+    font-family: 'Times New Roman';
+      font-size: 18px;
+  }
